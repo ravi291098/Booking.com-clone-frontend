@@ -4,7 +4,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="navContainer">
-        <span className="logo">lamabooking</span>
+        <span className="logo">MyBooking.Com</span>
         <div className="navItems">
           <button className="navButton" onClick={() => props.setShowRegister(true)}>Register</button>
           <button className="navButton" onClick={() => props.setShowLogin(true)}>Login</button>

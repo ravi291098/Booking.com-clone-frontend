@@ -27,8 +27,8 @@ const Home = () => {
         <MailList/>
         <Footer/>
       </div>
-      <Login show={showLogin} handleClose={() => setShowLogin(false)} />
-      <Register showRegister={showRegister} handleClose={() => setShowRegister(false)} />
+     {showLogin &&   <Login show={showLogin} showRegister={() => setShowRegister(true)} handleClose={() => setShowLogin(false)} />}
+      {showRegister &&   <Register showRegister={showRegister} showLogin={() => setShowLogin(true)} handleClose={() => setShowRegister(false)} />}
     </div>
   );
 };

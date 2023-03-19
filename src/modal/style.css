@@ -1,0 +1,31 @@
+.modal-body .login-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-body .login-layout .form-input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid black;
+}
+.modal-body .login-layout .form-input:focus-visible{
+    outline: none !important;
+}
+
+.text-error{
+    font-size: 14px;
+    color: red;
+    margin-top: 3px;
+}
+.login-btn{
+    background-color: #0071c2 !important;
+    color: #ffff !important;
+    font-weight: 700 !important;
+}
+
+.input-error{
+    border: 1px solid red !important;
+}

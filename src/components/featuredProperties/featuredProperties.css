@@ -8,6 +8,7 @@
 
 .fpItem{
   flex: 1;
+  cursor: pointer;
   gap: 10px;
   display: flex;
   flex-direction: column;
