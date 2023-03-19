@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "img" : "https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1",
+        "title": "Hotels",
+        "distance": "500m from center",
+        "offer": "Free airport taxi",
+        "feature": "Studio Apartment with Air conditioning",
+        "descriptions": " Entire studio • 1 bathroom • 21m² 1 full bed",
+        "cancelOption": "Free cancellation",
+        "cancellation": " You can cancel later, so lock in this great price today!",
+        "rating": "Good",
+        "star": "8.9",
+        "price": "112",
+        "tax": "Includes taxes and fees"
+    },
+    {
+        "id": "2",
+        "img" : "https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1",
+        "title": "Hotels",
+        "distance": "500m from center",
+        "offer": "Free airport taxi",
+        "feature": "Studio Apartment with Air conditioning",
+        "descriptions": " Entire studio • 1 bathroom • 21m² 1 full bed",
+        "cancelOption": "Free cancellation",
+        "cancellation": " You can cancel later, so lock in this great price today!",
+        "rating": "Excellent",
+        "star": "8.9",
+        "price": "790",
+        "tax": "Includes taxes and fees"
+    },
+    {
+        "id": "3",
+        "img" : "https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1",
+        "title": "Hotels",
+        "distance": "500m from center",
+        "offer": "Free airport taxi",
+        "feature": "Studio Apartment with Air conditioning",
+        "descriptions": " Entire studio • 1 bathroom • 21m² 1 full bed",
+        "cancelOption": "Free cancellation",
+        "cancellation": " You can cancel later, so lock in this great price today!",
+        "rating": "Excellent",
+        "star": "8.9",
+        "price": "250",
+        "tax": "Includes taxes and fees"
+    },
+    {
+        "id": "4",
+        "img" : "https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1",
+        "title": "Hotels",
+        "distance": "500m from center",
+        "offer": "Free airport taxi",
+        "feature": "Studio Apartment with Air conditioning",
+        "descriptions": " Entire studio • 1 bathroom • 21m² 1 full bed",
+        "cancelOption": "Free cancellation",
+        "cancellation": " You can cancel later, so lock in this great price today!",
+        "rating": "Very good",
+        "star": "8.9",
+        "price": "500",
+        "tax": "Includes taxes and fees"
+    }
+]
