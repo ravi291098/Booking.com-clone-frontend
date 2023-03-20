@@ -14,7 +14,7 @@ const SearchItem = ({ data }) => {
         className="siImg"
       />
       <div className="siDesc">
-        <h1 className="siTitle" style={{ cursor: 'pointer' }} onClick={() => handleNavigate(1)}>{data.title}</h1>
+        <h1 className="siTitle" style={{ cursor: 'pointer' }} onClick={() => handleNavigate(data.id)}>{data.title}</h1>
         <span className="siDistance">{data.distance}</span>
         <span className="siTaxiOp">{data.offer}</span>
         <span className="siSubtitle">

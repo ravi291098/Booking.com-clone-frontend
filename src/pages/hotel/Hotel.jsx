@@ -10,32 +10,14 @@ import {
   faCircleXmark,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {data} from '../../assests/hotelDescription'
+import { useParams } from "react-router-dom";
 const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
-
-  const photos = [
-    {
-      src: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707778.jpg?k=56ba0babbcbbfeb3d3e911728831dcbc390ed2cb16c51d88159f82bf751d04c6&o=&hp=1",
-    },
-    {
-      src: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707367.jpg?k=cbacfdeb8404af56a1a94812575d96f6b80f6740fd491d02c6fc3912a16d8757&o=&hp=1",
-    },
-    {
-      src: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261708745.jpg?k=1aae4678d645c63e0d90cdae8127b15f1e3232d4739bdf387a6578dc3b14bdfd&o=&hp=1",
-    },
-    {
-      src: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707776.jpg?k=054bb3e27c9e58d3bb1110349eb5e6e24dacd53fbb0316b9e2519b2bf3c520ae&o=&hp=1",
-    },
-    {
-      src: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261708693.jpg?k=ea210b4fa329fe302eab55dd9818c0571afba2abd2225ca3a36457f9afa74e94&o=&hp=1",
-    },
-    {
-      src: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707389.jpg?k=52156673f9eb6d5d99d3eed9386491a0465ce6f3b995f005ac71abc192dd5827&o=&hp=1",
-    },
-  ];
+  const [result, setResult] = useState([])
+  let {id} = useParams();
 
   const handleOpen = (i) => {
     setSlideNumber(i);
@@ -53,7 +35,13 @@ const Hotel = () => {
 
     setSlideNumber(newSlideNumber)
   };
-  console.log('hotel-detail',data)
+  useEffect(() => {
+    window.scrollTo(0,0)
+    let resultData = data.filter(item => item.id ==id)
+    setResult(resultData)
+  }, []);
+
+ 
   return (
     <div>
       <Navbar />
@@ -72,7 +60,7 @@ const Hotel = () => {
               onClick={() => handleMove("l")}
             />
             <div className="sliderWrapper">
-              <img src={data[0].images[slideNumber].src} alt="" className="sliderImg" />
+              <img src={result[0]?.images[slideNumber]?.src} alt="" className="sliderImg" />
             </div>
             <FontAwesomeIcon
               icon={faCircleArrowRight}
@@ -83,19 +71,19 @@ const Hotel = () => {
         )}
         <div className="hotelWrapper">
           <button className="bookNow">Reserve or Book Now!</button>
-          <h1 className="hotelTitle">{data[0].name}</h1>
+          <h1 className="hotelTitle">{result[0]?.name}</h1>
           <div className="hotelAddress">
             <FontAwesomeIcon icon={faLocationDot} />
-            <span>{data[0].address}</span>
+            <span>{result?.address}</span>
           </div>
           <span className="hotelDistance">
-            Excellent location – {data[0].distance}
+            Excellent location – {result[0]?.distance}
           </span>
           <span className="hotelPriceHighlight">
-            {data[0].highlight}
+            {result[0]?.highlight}
           </span>
           <div className="hotelImages">
-            {data[0].images.map((photo, i) => (
+            {result[0]?.images?.map((photo, i) => (
               <div className="hotelImgWrapper" key={i}>
                 <img
                   onClick={() => handleOpen(i)}
@@ -108,18 +96,18 @@ const Hotel = () => {
           </div>
           <div className="hotelDetails">
             <div className="hotelDetailsTexts">
-              <h1 className="hotelTitle">{data[0].title}</h1>
+              <h1 className="hotelTitle">{result[0]?.title}</h1>
               <p className="hotelDesc">
-                {data[0].description}
+                {result[0]?.description}
               </p>
             </div>
             <div className="hotelDetailsPrice">
-              <h1>{data[0].suggestion}</h1>
+              <h1>{result[0]?.suggestion}</h1>
               <span>
-                {data[0].details}
+                {result[0]?.details}
               </span>
               <h2>
-                <b>${data[0].price}</b> (9 nights)
+                <b>${result[0]?.price}</b> (9 nights)
               </h2>
               <button>Reserve or Book Now!</button>
             </div>

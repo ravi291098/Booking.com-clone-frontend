@@ -6,7 +6,7 @@
 
 .modal-body .login-layout .form-input{
     width: 100%;
-    height: 35px;
+    height: 40px;
     border-radius: 5px;
     padding: 0 10px;
     border: 1px solid black;
@@ -24,6 +24,7 @@
     background-color: #0071c2 !important;
     color: #ffff !important;
     font-weight: 700 !important;
+    height: 40px;
 }
 
 .input-error{

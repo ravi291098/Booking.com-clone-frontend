@@ -1,34 +1,322 @@
 export const data =[
     {
         "id": "1",
-        "name": "Hotel Rosewood Near Delhi Airport",
-        "address": "Elton St 125 New york",
-        "distance": "500m from center",
+        "name": "Oaks Inn plaza at Delhi Airport",
+        "address": "Mahipalpur, New Delhi",
+        "distance": "13.3 from center",
         "images": [
             {
-                "src": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707778.jpg?k=56ba0babbcbbfeb3d3e911728831dcbc390ed2cb16c51d88159f82bf751d04c6&o=&hp=1",
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
             },
             {
-                "src": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707367.jpg?k=cbacfdeb8404af56a1a94812575d96f6b80f6740fd491d02c6fc3912a16d8757&o=&hp=1",
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
             },
             {
-                "src": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261708745.jpg?k=1aae4678d645c63e0d90cdae8127b15f1e3232d4739bdf387a6578dc3b14bdfd&o=&hp=1",
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
             },
             {
-                "src": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707776.jpg?k=054bb3e27c9e58d3bb1110349eb5e6e24dacd53fbb0316b9e2519b2bf3c520ae&o=&hp=1",
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
             },
             {
-                "src": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261708693.jpg?k=ea210b4fa329fe302eab55dd9818c0571afba2abd2225ca3a36457f9afa74e94&o=&hp=1",
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
             },
             {
-                "src": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707389.jpg?k=52156673f9eb6d5d99d3eed9386491a0465ce6f3b995f005ac71abc192dd5827&o=&hp=1",
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
             }
         ],
         "price": "945",
-        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel Rosewood Near Delhi Airport has accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a concierge service and a tour desk. The property provides room service, a 24-hour front desk and currency exchange for guests.",
+        "description": "Breakfast is available each morning, and includes buffet, American and vegetarian options. A bicycle rental service is available at the bed and breakfast.MG Road is 11.6 km from Oaks Inn Plaza at Delhi Airport, while Kingdom of Dreams is 12.7 km from the property. The nearest airport is Delhi International Airport, 1.9 km from the accommodation.",
         "highlights": "Book a stay over $114 at this property and get a free airport taxi",
         "title": "Stay in the heart of City",
         "suggestion": "Perfect for a 9-night stay!",
-        "details": "Located in the real heart of Krakow, this property has an excellent location of rating 8.8"
+        "details": "Located 9.8 km from Qutub Minar, Oaks Inn Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "2",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "3",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "4",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "5",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "6",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "7",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "8",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "9",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
+    },
+    {
+        "id": "10",
+        "name": "Hotel King Plaza",
+        "address": "South West, New Delhi",
+        "distance": "14.8 from center",
+        "images": [
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439217636.jpg?k=5b90b2856900caa5a20bd22c21820a107ab5fbf836c8a408ee0dec9fc9a8a5da&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225891.jpg?k=3a1ab0eca1b23f84b6bf81c1e48479249eb7c9aec5d0c11a8ab59df4b9ff5c56&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439225656.jpg?k=12ab6830bc0c3226314685848855732807dbd972b52ba1a216fc6cd1d9d345b6&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620891.jpg?k=e687c7c738f34d1534198ecec17c2dfd466f353d72602003b30cd4336a0c43ef&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/439224902.jpg?k=0d674880cc5b173acf9e59e65cc03ce90610b45d8d8e374d5b8ea17009e25a1b&o=&hp=1",
+            },
+            {
+                "src": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435620884.jpg?k=23c05e6c64b554ad6532ea4fa27f1d6c7d952b06900e329e17ed7e58c1821df6&o=&hp=1",
+            }
+        ],
+        "price": "945",
+        "description": "Located in New Delhi, within 12.4 km of Qutub Minar and 13 km of MG Road, Hotel King Plaza provides accommodations with a shared lounge as well as free private parking for guests who drive. This 4-star hotel offers a 24-hour front desk and an ATM. The property has a shared kitchen, room service and currency exchange for guests",
+        "highlights": "Book a stay over $114 at this property and get a free airport taxi",
+        "title": "Stay in the heart of City",
+        "suggestion": "Perfect for a 9-night stay!",
+        "details": "Located 12.4 km from Qutub Minar, Hotel King Plaza at Delhi Airport has accommodations with free WiFi and free private parking."
     }
 ]

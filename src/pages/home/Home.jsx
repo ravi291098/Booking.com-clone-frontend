@@ -17,18 +17,18 @@ const Home = () => {
   return (
     <div>
       <Navbar setShowLogin={setShowLogin} setShowRegister={setShowRegister} />
-      <Header/>
+      <Header setShowRegister={setShowRegister}/>
       <div className="homeContainer">
-        <Featured/>
+        <Featured />
         <h1 className="homeTitle">Browse by property type</h1>
-        <PropertyList/>
+        <PropertyList />
         <h1 className="homeTitle">Homes guests love</h1>
-        <FeaturedProperties/>
-        <MailList/>
-        <Footer/>
+        <FeaturedProperties />
+        <MailList />
+        <Footer />
       </div>
-     {showLogin &&   <Login show={showLogin} showRegister={() => setShowRegister(true)} handleClose={() => setShowLogin(false)} />}
-      {showRegister &&   <Register showRegister={showRegister} showLogin={() => setShowLogin(true)} handleClose={() => setShowRegister(false)} />}
+      {showLogin && <Login show={showLogin} showRegister={() => setShowRegister(true)} handleClose={() => setShowLogin(false)} />}
+      {showRegister && <Register showRegister={showRegister} showLogin={() => setShowLogin(true)} handleClose={() => setShowRegister(false)} />}
     </div>
   );
 };

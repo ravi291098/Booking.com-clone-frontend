@@ -1,25 +1,33 @@
 import { useNavigate } from "react-router-dom";
 import "./featuredProperties.css";
-
+import data from '../../assests/hotelList'
 const FeaturedProperties = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+
   return (
     <div className="fp">
-      <div className="fpItem" onClick={() => navigate(`./hotels/1`)}>
-        <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
-          alt=""
-          className="fpImg"
-        />
-        <span className="fpName">Aparthotel Stare Miasto</span>
-        <span className="fpCity">Madrid</span>
-        <span className="fpPrice">Starting from $120</span>
-        <div className="fpRating">
-          <button>8.9</button>
-          <span>Excellent</span>
-        </div>
-      </div>
-      <div className="fpItem">
+      {
+        data?.filter((item, index) => index < 4).map((item) => {
+          return (
+            <div className="fpItem" onClick={() => navigate(`./hotels/${item.id}`)}>
+              <img
+                src={item.img}
+                alt=""
+                className="fpImg"
+              />
+              <span className="fpName">{item.title}</span>
+              <span className="fpCity">New Delhi</span>
+              <span className="fpPrice">Starting from ${item.price}</span>
+              <div className="fpRating">
+                <button>{item.star}</button>
+                <span>{item.rating}</span>
+              </div>
+            </div>
+          )
+        })
+      }
+
+      {/* <div className="fpItem">
         <img
           src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/215955381.jpg?k=ff739d1d9e0c8e233f78ee3ced82743ef0355e925df8db7135d83b55a00ca07a&o=&hp=1"
           alt=""
@@ -60,7 +68,7 @@ const FeaturedProperties = () => {
           <button>8.9</button>
           <span>Excellent</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
